@@ -1,0 +1,7 @@
+[
+	{ "keys": ["ctrl+shift+down"], "command": "duplicate_lines" },
+	{ "keys": ["shift+alt+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+e"], "command": "cut" },
+	{ "keys": ["ctrl+'"], "command": "copy" },
+	{ "keys": ["shift+alt+down"], "command": "swap_line_down" }
+]

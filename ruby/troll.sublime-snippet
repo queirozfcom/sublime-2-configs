@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+opts = Trollop::options do
+  banner <<-EOS
+  ${1:banner not set}
+EOS
+  opt :${2:option_name} , ${3:"Description for option_name"} , :required => true , :type=>:string
+end
+
+Trollop::die :${2:option_name}, "${4:Error message}" if false
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>troll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>

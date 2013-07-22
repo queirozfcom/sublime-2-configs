@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+id int(11) UNSIGNED NOT NULL AUTO_INCREMENT
+]]></content>
+	Optional: Set a tabTrigger to define how to trigger the snippet
+	<tabTrigger>id</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+</snippet>
+
