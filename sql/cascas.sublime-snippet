@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ON DELETE CASCADE ON UPDATE CASCADE ${1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cascas</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+</snippet>

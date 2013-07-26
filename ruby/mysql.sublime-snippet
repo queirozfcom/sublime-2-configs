@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+db = Mysql.new(${1:'localhost'},${2:'root'},${3:password})
+db.select_db(${4:dbname})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mysql</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>
