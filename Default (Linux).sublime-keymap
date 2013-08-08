@@ -3,6 +3,8 @@
 	{ "keys": ["shift+alt+up"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+'"], "command": "copy" },
 	{ "keys": ["shift+alt+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+shift+w"], "command": "close" },
 	{ "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-	{ "keys" :["alt+right"],"command":"run_macro_file","args":{"file":"Packages/User/go_to_end_of_line.sublime-macro"}}
+	{ "keys" :["alt+right"],"command":"run_macro_file","args":{"file":"Packages/User/go_to_end_of_line.sublime-macro"}},
+	{ "keys" :["alt+left"],"command":"run_macro_file","args":{"file":"Packages/User/go_to_beginning_of_line.sublime-macro"}}
 ]
