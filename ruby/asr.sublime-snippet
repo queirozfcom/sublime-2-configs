@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+assert_raise(${1:}Exception.new){
+	${2:code}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>asr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>

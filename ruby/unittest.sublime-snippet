@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+require 'rubygems'
+gem 'test-unit'
+require 'test/unit'
+
+class Test${1:className} < Test::Unit::TestCase
+
+    def test_${2:methodName}
+
+    end
+
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>unittest</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>

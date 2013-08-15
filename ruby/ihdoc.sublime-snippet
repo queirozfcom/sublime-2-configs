@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
-find_element(:css,"${1:selector}")
+${1:string} = <<-END.gsub(/^ {${2:offset}}/,'')
+${3}
+END
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>fcss</tabTrigger>
+	<tabTrigger>ihdoc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
 </snippet>

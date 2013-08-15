@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require 'unicode'
+require 'fileutils'
+require_relative '../../../lib/helpers/string.rb'
+class Hook
+    include FileUtils
+    include StringHelper
+
+    #opts contains all the options passed to create_product
+    def initialize(opts)
+
+    end
+
+    def run
+
+    end
+end]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hook</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>
