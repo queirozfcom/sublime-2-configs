@@ -1,0 +1,3 @@
+[submodule "daylerees-themes"]
+	path = daylerees-themes
+	url = https://github.com/daylerees/colour-schemes.git
