@@ -1,3 +1,6 @@
 [submodule "daylerees-themes"]
 	path = daylerees-themes
 	url = https://github.com/daylerees/colour-schemes.git
+[submodule "sublime-racket"]
+	path = sublime-racket
+	url = https://github.com/dbp/sublime-racket.git
