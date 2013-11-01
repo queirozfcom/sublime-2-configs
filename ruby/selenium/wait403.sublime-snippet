@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+DRIVER.navigate.to BASE_URL+'${1:url}'
+wait = Selenium::WebDriver::Wait.new(:timeout => 3)
+wait.until { DRIVER.find_element(:tag_name,"body") .text.include?("403")}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wait403</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>
